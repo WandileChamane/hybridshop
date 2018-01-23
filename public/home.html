@@ -1,0 +1,7 @@
+<div class="product-container">
+	<a  ng-click="fetchProduct(product._id)"  class="product-block col-xs-12 col-md-4 col-lg-3" ng-repeat="product in products">
+		<div class="product-image"><img src="/images/product_placeholder.jpg"></div>
+		<div class="product-desc">{{product.name}}</div>
+		<div class="product-price"><span ng-if="product.discount.length > 0" class="old-price">{{currency}}{{product.price}}</span> <br /> <span class="discount">{{product.discount}}</span><br />{{currency}}{{product.newPrice}} </div>
+	</a>
+</div>

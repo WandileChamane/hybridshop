@@ -1,0 +1,17 @@
+<div class="success-message-container">
+    <div class="success-icon"></div>
+    <div class="success-message">Transaction was succesful!!, Thank you for your purchase</div>
+  </div>
+
+<div class="product-container" ng-if="!showPayForm">
+	<div class="product-block selected-prod col-xs-12 col-md-12 col-lg-12">
+		<div class="product-image"><img src="/images/product_placeholder.jpg"></div>
+		<div class="product-desc">{{selectedProd.Desc}}</div>
+		<div class="button-container">
+			<button class="btn btn-primary" ng-click="navigate('home')">Home</button>
+			<button class="btn btn-primary" ng-click="getHistory()">Transaction History</button>
+		</div>	
+		<!-- <div class="product-price">{{currency}}{{selectedProd.price}} <br><span class="discount">{{selectedProd.discount}}</span></br></div> -->
+  	</div>
+</div>
+

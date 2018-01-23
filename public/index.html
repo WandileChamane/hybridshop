@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html ng-app="myApp">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"> -->
+
+  <title>Hybrid Store</title>
+</head>
+<body>
+  <div class="container " ng-controller="AppCtrl">
+
+  		<div class="row">
+  <div ng-include="'nav.html'"></div>
+
+<div ui-view=""></div>
+
+<!-- <div class="product-container">
+	<a href="/product.html" class="product-block col-xs-12 col-md-4 col-lg-3" ng-repeat="product in products">
+		<div class="product-image"><img src="/images/product_placeholder.jpg"></div>
+		<div class="product-desc">{{product.Desc}}</div>
+		<div class="product-price">{{currency}}{{product.price}} <br><span class="discount">{{product.discount}}</span></br> </div>
+	</a>
+</div> -->
+    
+  		</div>
+  </div>
+  <script src="angular/angular.min.js"></script>
+  <script src="angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="controllers/controller.js"></script>
+</body>
+</html>

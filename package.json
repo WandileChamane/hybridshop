@@ -1,0 +1,25 @@
+{
+  "name": "hydrid-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.11.1",
+    "mongojs": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WandileChamane/hybridshop"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "express"
+  ],
+  "author": "Wandile Chamane",
+  "license": "MIT"
+}

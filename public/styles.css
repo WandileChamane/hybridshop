@@ -1,0 +1,131 @@
+.product-block {
+    background: #fefefe;
+    height: 114px;
+    border: 1px solid #eee;
+    border-bottom: 1px solid #efefef;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 1px -1px;
+}
+
+.product-block:hover {
+    background: #fff;
+    border: 1px solid #eee;
+    border-bottom: 1px solid #efefef;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 1px -1px;
+}
+
+.selected-prod{
+ 	height: 300px;
+}
+
+.product-desc.ng-binding {
+    /* float: right; */
+    height: 28px;
+    /* display: block; */
+    font-size: 13px;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.navbar .container-fluid {
+    background: #337ab7;
+}
+
+a.navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+}
+
+.selected-prod .product-desc.ng-binding {
+	height: 172px;
+}
+
+.product-price.ng-binding {
+    float: right;
+    font-size: x-large;
+    font-style: italic;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+.selected-prod .product-price.ng-binding {
+    height: 96px;
+}
+
+span.discount.ng-binding {
+    font-size: 13px;
+}
+
+.product-image img {
+    height: 100%;
+    float: left;
+}
+
+.selected-prod .product-price.ng-binding {
+    height: 96px;
+    width: 164px;
+    color: green;
+}
+
+.selected-prod button.btn {
+    /*float: right;
+    clear: both;
+    margin-top: -34px;*/
+    /*background: green !important;*/
+}
+.history-item {
+    border-bottom: 1px solid #eee;
+    padding: 3px;
+    font-size: 11;
+}
+span.old-price {
+    text-decoration: line-through;
+    font-size: 15;
+    color: red;
+}
+.success-message {
+    font-size: 25px;
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.button-container {
+    float: right;
+    clear: both;
+    margin-top: -34px;
+}
+
+.balance {
+    padding: 15px;
+    float: right;
+    border-left: 1px solid darkblue;
+    font-weight: bold;
+    color: #fff;
+}
+
+.profile li {
+    list-style: none;
+    border-bottom: 1px dashed #eee;
+    padding: 5px;
+    color: navy;
+}
+
+span.profile-label {
+    font-size: 14px;
+    font-style: italic;
+    color: #aaa;
+    width: 109px;
+    display: inline-block;
+}
+
+li.active.menu-item a {
+    background: #fff !important;
+    color: #337ab7 !important;
+}

@@ -1,0 +1,17 @@
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hybrid Store</a>
+    </div>
+    <ul class="nav navbar-nav" id="menu">
+      <li class="active menu-item"><a href="#">Home</a></li>
+      <li class="menu-item"><a href="#" ng-click="getHistory()" ng-if="isloggedin">Transaction History</a></li>
+      <li class="menu-item"><a href="#" ng-if="isloggedin" ui-sref='profile'>My Profile</a></li>
+      <li class="menu-item"><a href="#" ng-if="isloggedin" ng-click="logout()">Logout</a></li>
+      <li class="menu-item"><a href="#" ui-sref='login' ng-if="!isloggedin">login</a></li>
+      <li class="menu-item"><a href="#" ui-sref='register' ng-if="!isloggedin">Register</a></li>
+      <li class="menu-item"><a href="#" ui-sref='admin' ng-if="isloggedin && isAdmin">Admin</a></li>
+      <li class="menu-item"><div class="balance" ng-if="isloggedin">Balance {{currency}}{{balance}}</li>
+    </ul>
+  </div>
+</nav>
